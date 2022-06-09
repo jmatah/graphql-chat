@@ -5,6 +5,8 @@
 ### Chat system
 This chat is losely based on [kimutaiRop's Graphene Chat](https://github.com/kimutaiRop/django-graphene-chat), and is still a work in progress!
 
+I wanted a One to One chat system for a React Based front end/ Android App. 
+
 ### Create Room:
 `mutation {
 	createChat( userName: "jatin" ) {
