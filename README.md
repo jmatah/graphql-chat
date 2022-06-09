@@ -21,7 +21,8 @@ I wanted a One to One chat system for a React Based front end/ Android App.
 			}
 		}
 	}
-}```
+}
+```
 
 ### Subscribe
 ```subscription {
@@ -39,7 +40,8 @@ I wanted a One to One chat system for a React Based front end/ Android App.
               read
             }
         }
-      }```
+      }
+```
 
 ### Send Message
 ```mutation{
@@ -56,9 +58,10 @@ I wanted a One to One chat system for a React Based front end/ Android App.
       read
     }
 	}
-}```
+}
+```
 
-You can find more in the explorer.
+...You can find more in the explorer.
 
 ### Installation:
 `pip install -r requirements.txt`
