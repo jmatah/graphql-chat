@@ -8,7 +8,7 @@ This chat is losely based on [kimutaiRop's Graphene Chat](https://github.com/kim
 I wanted a One to One chat system for a React Based front end/ Android App. 
 
 ### Create Room:
-`mutation {
+```mutation {
 	createChat( userName: "jatin" ) {
 		room {
 			id
@@ -21,9 +21,10 @@ I wanted a One to One chat system for a React Based front end/ Android App.
 			}
 		}
 	}
-}`
+}```
+
 ### Subscribe
-`subscription {
+```subscription {
         onNewMessage(chatroom:"rahul"){
     				message{
               roomId {
@@ -38,10 +39,10 @@ I wanted a One to One chat system for a React Based front end/ Android App.
               read
             }
         }
-      }`
+      }```
 
 ### Send Message
-`mutation{
+```mutation{
 	sendMessage( message: "This is a message", roomId: 3 ) {
      message{
       roomId{
@@ -55,7 +56,7 @@ I wanted a One to One chat system for a React Based front end/ Android App.
       read
     }
 	}
-}`
+}```
 
 You can find more in the explorer.
 
