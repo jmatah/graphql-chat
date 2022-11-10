@@ -69,4 +69,4 @@ I wanted a One to One chat system for a React Based front end/ Android App.
 `python manage.py runserver`
 
 ### Bugs:
-let me know if u find any bugs, or if you have anything that can be done better. Heppy to help!
+let me know if u find any bugs, or if you have anything that can be done better. Happy to help!
